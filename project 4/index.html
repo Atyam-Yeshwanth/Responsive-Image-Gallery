@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Image Gallery</title>
+  <link rel="stylesheet" href="b.css">
+</head>
+<body>
+  <header>
+    <h1>My Image Gallery</h1>
+    <!-- 7. Search Functionality -->
+    <input type="text" id="search-bar" placeholder="Search...">
+  </header>
+
+  <div id="gallery" class="thumbnail-container"></div>
+
+  <div id="lightbox">
+    <span id="close-lightbox" onclick="closeLightbox()">X</span>
+    <div id="lightbox-content">
+      <img id="lightbox-image" alt="Enlarged Image">
+      <div id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <br><br><br><br>
+  <footer>
+    <p>&copy; 2024 My Image Gallery. All rights reserved.</p>
+  </footer>
+
+  <script src="c.js"></script>
+</body>
+</html>
